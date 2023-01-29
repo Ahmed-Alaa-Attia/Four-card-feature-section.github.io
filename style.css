@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    font-family: "Poppins";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.text
+{
+    min-width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text .head2
+{
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 1.5vh;
+}
+
+.text p
+{
+    max-width: 60vh;
+    color: hsl(229, 6%, 66%);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.p2
+{
+    margin-bottom: 7vh;
+}
+
+#header
+{
+    color: hsl(234, 12%, 34%);
+    font-weight: 300;
+}
+
+.container
+{
+    display: grid;
+    grid-template-columns: 40vh 40vh 40vh;
+    column-gap: 3.5vh;
+    align-items: center;
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+
+.box
+{
+    border-top: 4px solid hsl(180, 62%, 55%);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 27vh;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding-left: 3vh;
+    padding-top: 3vh;
+}
+
+.box h3
+{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+
+#teambuilder
+{
+    border-top: 4px solid hsl(0, 78%, 62%);
+    margin-bottom: 3.5vh;
+}
+
+#karma
+{
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+#calc
+{
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.contp
+{
+    color: hsl(229, 6%, 66%);
+    font-weight: 500;
+    font-size: 15px;
+    max-width: 32vh;
+}
+
+
+.imge
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    padding-right: 3vh;
+    margin-bottom: 3vh;
+}
+
+
+@media only screen and (max-width: 600px) {
+        .container
+        {
+            
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: center;
+        }
+       
+    }
+  
